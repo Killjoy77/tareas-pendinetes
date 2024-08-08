@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ADC4CE;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #134B70;
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.encabezado{
+    padding: 20px 0px 5px 0px;
+}
+.agregar{
+    background-color: #D4E2D4;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+}
+.agregar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: #E1F4F3;
+    padding-left: 10px;
+}
+.agregar input::placeholder{
+    font-size: 1.1rem;
+    color: #522258;
+
+}
+.agregar i{
+    font-size: 45px;
+    color: #522258;
+}
+.agregar i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* sección de tareas */
+.tareas h2{
+    margin-bottom: 20px;
+    /* color: #8C3061; */
+}
+.tareas li{
+    background-color: #DBAFA0;
+    border-radius: 15px;
+    padding: 10px;
+    color: #522258;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tareas{
+    font-size: 25px;
+}
+.tareas p{
+    font-weight: 600;
+}
+.tareas i:hover{
+    color: #8C3061;
+    cursor: pointer;
+}
+.tachado{
+    text-decoration: line-through;
+    color: #8C3061;
+}
